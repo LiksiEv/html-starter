@@ -3,6 +3,10 @@ box-sizing: border-box;
 }
 body{
    background-color: #f7f7f7;
+   .inder-regular {
+  font-family: "Inder", sans-serif;
+}
+
 }
 .page-wrapper {
    max-width: 375px;
@@ -13,12 +17,13 @@ body{
    padding: 40px 42px 145px;
 }
 .header {
+   color: #000;
   border: 1px solid #000;
 width: 398px;
 height: 239px; 
  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-border-radius: 0px 0px 90px 90px;
 background-position: center;
+border-radius: 0px 0px 90px 90px;
 }
