@@ -8,11 +8,16 @@ body {
 }
 
 .page-wrapper {
+   overflow: hidden;
   max-width: 375px;
   margin: auto;
   background-color: #f7f7f7;
   box-shadow: 0px 0px 30px rgba(128, 127, 127, 0.25);
   border-radius: 20px;
+}
+.container {
+max-width: 300px;
+margin: auto;
 }
 
 .header {
@@ -37,4 +42,32 @@ color: #d9d9d9;
 font-weight: 400;
 font-size: 20px;
 color: #fff;
+}
+.user{
+ margin-top: -40px;
+text-align: center;
+background-color: #fff;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+border-radius: 10px;
+padding-bottom: 20px;
+}
+.user-avatar{
+margin-top: -43px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.user-name{
+ margin-top: 8px;
+margin-bottom: 4px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000;
+}
+.user-description{
+font-weight: 500;
+font-size: 14px;
+line-height: 15px;
+text-align: center;
+color: #666;
 }
